@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+.form_container
+{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;   
+  border: 3px solid red;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 10px;
+  width: 600px;
+  height: 500px;
+  margin-left: 500px;
+  background-color: black;
+  color: white;
+}
+.form_container > form > h2
+{
+  text-align: center; 
+  font-family: 'Alata',sans-serif;
+}
+.form_container > form > h3
+{
+  text-align: center; 
+  font-family: 'Alata',sans-serif;
+}
+.input-container 
+{
+  display: flex;
+  width: 90%;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+.input-container > textarea
+{
+  width: 100% !important;
+  height: 100px;
+}
+.icon 
+{
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.input-field 
+{
+  width:100%;
+  padding: 10px;
+  outline: none;
+}
+.input-field:focus 
+{
+  border: 2px solid dodgerblue;
+}
+.btn 
+{
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  margin-left: 150px;
+} 
+.btn:hover 
+{
+  opacity: 1;
+}  
+  

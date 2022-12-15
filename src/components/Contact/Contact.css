@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: center;
+    margin: 200px 0px 50px;
+    align-items: left;
+}
+.contact > h1
+{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact__container
+{
+    margin-top: 30px;
+    display: flex;
+}
+.contact__container__left 
+{
+    margin-left: 50px;
+    flex: 0.3;
+}
+.contact__container__left > img
+{
+    width: 230px;
+    height: 70px;
+}
+.contact__container__left > p > i
+{
+    padding: 5px;
+}
+.contact__container__left  > a > i
+{
+    padding: 5px;
+}
+.contact__container__left > p
+{
+    font-size: 17px;
+    margin-top: 10px;
+    white-space: pre-line;
+}
+.contact__container__left > a
+{
+    font-size: 17px;
+    color: black;
+}
+.contact__container__left > a:hover
+{
+    font-size: 18px;
+    color: blue;
+}
+.contact__container__right
+{
+    flex: 0.7;
+    display: flex;
+}
+.contact__container__right1
+{
+    margin-left: 150px;
+}
+.contact__container__right1 > hr
+{
+    line-height: 10cm;
+}
+.contact__container__right2
+{
+    margin-left: 150px;
+}
+.contact__icons__right
+{
+    margin-left: 150px;
+}
+.contact__container__right1 > a
+{
+    display: flex;
+    line-height: 200%;
+    color: black;
+}
+.contact__container__right1 > a:hover
+{
+    display: flex;
+    line-height: 200%;
+    color: blue;
+}
+.contact__container__right1 > p
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact__container__right2 > p
+{
+   
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact__container__right2 > a
+{
+    display: flex; 
+    line-height: 200%;
+    color: black;
+}
+.contact__container__right2 > a:hover
+{
+    display: flex; 
+    line-height: 200%;
+    color: blue;
+}
+.contact__icons__right > p
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact__icons__right > a > button > span > .MuiIconButton-root
+{
+    color: black;  
+    font-size: 30px;
+}
+.contact__icons__right > a > button
+{
+    color: black !important;
+}

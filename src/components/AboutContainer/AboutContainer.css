@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.aboutContainer
+{
+    font-family: 'Alata';
+}
+.aboutContainer > h1
+{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 80px;
+    padding: 20px;
+}
+.aboutContainer > p
+{
+    font-size: 20px;
+    margin: 50px 100px 100px 100px;
+    white-space: pre-line;
+}
+
